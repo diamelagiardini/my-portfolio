@@ -71,6 +71,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 95.5px;
     background-color: #FFFFFF;
     width: 100%;
@@ -84,6 +85,7 @@ header{
 
 .presentacion > h3{
     font-size: 40px;
+    padding-top:20px;
 }
 
 .presentacion > h1{
@@ -114,7 +116,7 @@ header{
     height: 500px; 
 }
 
-/*agregar un breakpoint en 770px para que la imagen baje abajo del div presentacion en modo responsivo*/
+/*agregar un breakpoint en 500px para que la imagen se achique aunque sea a 300px*/
 
 /*SECTION CONOCIMIENTOS*/
 
@@ -124,7 +126,6 @@ header{
 
 #conocimientos > p{
     text-align: center;
-    margin: 0 50px;
 }
 
 
@@ -133,8 +134,7 @@ header{
     height: auto;
     margin: auto;
     margin-top: 30px;
-    border-radius: 20px;
-    border: 1px solid #ABA29F;
+    background-color: #F6F7FB;
 
 
     display: flex;
@@ -146,11 +146,14 @@ header{
 .lenguajes{
     margin: 10px;
     padding: 5px;
+    background-color: #FFFFFF;
     border: 1px solid #ABA29F;
     border-radius: 20px;
-    width: 230px;
+    width: 250px;
     height: 260px;
 }
+
+/*Cuando se haga responsive achicar el widht y el height*/
 
 .contenedor_conocimientos div {
     display: flex;
@@ -158,6 +161,49 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.contenedor_conocimientos div:hover {
+    border: 3px solid #CBAACB;
+}
+
+.lenguajes > .fab{
+    font-size: 120px;
+    color: #CBAACB;
+}
+
+.lenguajes > p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*SECTION CITA*/
+
+.cita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    text-align: center;
+    height: 280px;
+    padding: 0 70px;
+
+    background-color:#CBAACB;
+}
+
+.fa-quote-right{
+    font-size: 70px;
+    color:#ffffb5;
+}
+
+.cita > p{
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
 
 
 
