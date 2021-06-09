@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    color: #242422;
+}
+
+/*HEADER*/
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
+    padding: 25px 0;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.opciones_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.opciones_nav > li{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 25px;
+    list-style: none;   
+}
+
+.opciones_nav > li:hover{
+    color: #7FC1A9;
+}
+
+.boton{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #7FC1A9;
+    color: #FFFFFF;
+    border: 1px solid #7FC1A9;
+}
+
+.boton:hover{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid #7FC1A9;
+    color:#7FC1A9;
+}
+
+/*SECTION HOLA*/
+
+#hola{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95.5px;
+    background-color: #FFFFFF;
+}
+
+.presentacion{
+    width: 400px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.presentacion > h3{
+    font-size: 40px;
+}
+
+.presentacion > h1{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: #CBAACB;
+}
+
+.presentacion > p{
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.presentacion > button{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.imagen{
+    width: 550px;
+    height: 500px;
+    margin-left: 10px;
+}
+
+.imagen > img{
+    /* width: 100%;
+    height: 100%; */
+    width: 550px;
+    height: 500px; 
+}
+
+/*agregar un breakpoint en 770px para que la imagen baje abajo del div presentacion en modo responsivo*/
+
+/*SECTION CONOCIMIENTOS*/
+
+#conocimientos{
+    background-color: #F6F7FB;
+}
+
+
+
+
+
+
+
+
