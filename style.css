@@ -9,6 +9,13 @@
     color: #242422;
 }
 
+.fuente_titulos_principales{
+    font-size: 45px;
+    font-weight: 900;
+    padding:30px;
+    text-align: center;
+    width: 100%;
+}
 /*HEADER*/
 
 header{
@@ -66,6 +73,7 @@ header{
     align-items: center;
     margin-top: 95.5px;
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .presentacion{
@@ -114,6 +122,35 @@ header{
     background-color: #F6F7FB;
 }
 
+#conocimientos > p{
+    text-align: center;
+    margin: 0 50px;
+}
+
+
+.contenedor_conocimientos{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid #ABA29F;
+
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.lenguajes{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ABA29F;
+    border-radius: 20px;
+    width: 230px;
+    height: 260px;
+}
 
 
 
