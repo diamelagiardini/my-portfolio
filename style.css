@@ -125,17 +125,18 @@ header{
 
 /*SECTION CONOCIMIENTOS*/
 
-#conocimientos{
+#conocimientos,#proyectos{
     background-color: #F6F7FB;
 }
 
-#conocimientos > p{
-    text-align: center;
+ #conocimientos > p,#proyectos > p{
+    display: flex;
+    justify-content: center;
 }
 
 
 .contenedor_conocimientos{
-    width: 60%;
+    width: 55%;
     height: auto;
     margin: auto;
     margin-top: 30px;
@@ -210,8 +211,40 @@ header{
     padding-top: 10px;
 }
 
+/*PROYECTOS*/
+.contenedor_proyectos{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #F6F7FB;
 
 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.tarjeta_proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #ABA29F;
+    border-radius: 20px;
+    width: 295px;
+    height: 300px; 
+}
+
+/* .tarjeta_proyecto > p{
+    display: flex;
+    justify-content: center;
+} */
 
 
 
