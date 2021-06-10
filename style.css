@@ -15,7 +15,10 @@
     padding:30px;
     text-align: center;
     width: 100%;
+/*en responsive sacarle el font size*/
 }
+
+
 /*HEADER*/
 
 header{
@@ -26,7 +29,7 @@ header{
     padding: 25px 0;
     width: 100%;
     z-index: 10;
-    
+/*En 540px sacar el header con responsive*/
 }
 
 .opciones_nav{
@@ -104,19 +107,21 @@ header{
     font-size: 20px;
 }
 .imagen{
-    width: 550px;
-    height: 500px;
+    width: 450px;
+    height: 400px;
+    overflow: hidden;
     margin-left: 10px;
+
+/*En 450px ponerle responsive para ocultar la imagen*/
 }
 
 .imagen > img{
     /* width: 100%;
     height: 100%; */
-    width: 550px;
-    height: 500px; 
+    width: 450px;
+    height: 400px;
 }
 
-/*agregar un breakpoint en 500px para que la imagen se achique aunque sea a 300px*/
 
 /*SECTION CONOCIMIENTOS*/
 
@@ -151,9 +156,10 @@ header{
     border-radius: 20px;
     width: 250px;
     height: 260px;
+/*Cuando se haga responsive achicar el widht y el height*/    
 }
 
-/*Cuando se haga responsive achicar el widht y el height*/
+
 
 .contenedor_conocimientos div {
     display: flex;
@@ -186,14 +192,14 @@ header{
     align-content: center;
 
     text-align: center;
-    height: 280px;
-    padding: 0 70px;
+    height:auto;
+    padding: 100px 70px;
 
     background-color:#CBAACB;
 }
 
 .fa-quote-right{
-    font-size: 70px;
+    font-size: 60px;
     color:#ffffb5;
 }
 
