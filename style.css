@@ -241,11 +241,9 @@ header{
     height: 300px; 
 }
 
-/* .tarjeta_proyecto > p{
-    display: flex;
-    justify-content: center;
-} */
-
-
+ .imagen_proyecto > img{
+    width: 230px;
+    height: auto;
+}
 
 
