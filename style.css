@@ -246,4 +246,6 @@ header{
     height: auto;
 }
 
-
+.tarjeta_proyecto:hover{
+    border: 3px solid #FFFFB5;
+}
