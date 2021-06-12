@@ -28,7 +28,6 @@ header{
     box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
     padding: 25px 0;
     width: 100%;
-    z-index: 10;
 /*En 540px sacar el header con responsive*/
 }
 
@@ -125,7 +124,7 @@ header{
 
 /*SECTION CONOCIMIENTOS*/
 
-#conocimientos,#proyectos{
+#conocimientos{
     background-color: #F6F7FB;
 }
 
@@ -209,15 +208,17 @@ header{
     font-size: 18px;
     font-weight: 600;
     padding-top: 10px;
+    width: 70%;
 }
 
 /*PROYECTOS*/
+
 .contenedor_proyectos{
     width: 70%;
     height: auto;
     margin: auto;
     margin-top: 30px;
-    background-color: #F6F7FB;
+    background-color: #FFFFFF;
 
 
     display: flex;
@@ -248,4 +249,108 @@ header{
 
 .tarjeta_proyecto:hover{
     border: 3px solid #FFFFB5;
+}
+
+/*FORMULARIO*/
+
+#formulario{
+    background-color: #F6F7FB;
+
+}
+.contenedor_formulario{
+    
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #ABA29F;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    /*en 1260px el flex se convierte en column*/
+}
+
+.contactame {
+    padding: 40px;
+    /* width: 430px; */
+    width: 50%;
+    
+}
+
+.escribime{
+    padding: 40px;
+    /* width:430px; */
+    width: 50%;
+}
+
+.nombre_y_apellido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.nombre_y_apellido > label input{
+    /* width: 190px; */
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F6F7FB;
+}
+
+.nombre_y_apellido > label{
+    margin-top: 10px;
+}
+
+.email_y_mensaje{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px ;
+}
+
+.email_y_mensaje > label input{
+    /* width: 385px; */
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F7FB;
+}
+
+.email_y_mensaje > label{
+    margin-top: 10px;
+}
+
+textarea{
+    /* width: 385px; */
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F7FB;
+}
+
+#boton_formulario{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    width: 100px;
+    padding: 15px;
+    font-size: 16px; 
 }
