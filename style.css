@@ -260,7 +260,6 @@ header{
 .contenedor_formulario{
     
     width: 70%;
-    height: auto;
     margin: auto;
     margin-top: 30px;
     
@@ -273,20 +272,45 @@ header{
     justify-content: center;
     flex-direction: row;
 
-    /*en 1260px el flex se convierte en column*/
+    /*en 1000px el flex se convierte en column*/
 }
 
 .contactame {
-    padding: 40px;
-    /* width: 430px; */
-    width: 50%;
-    
+    padding: 40px 20px 40px ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactame li{
+    list-style: none;
+}
+
+.contactame li i {
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    margin: 2px;
+    color: #7FC1A9;
+    border: 1px solid #FFFFFF;
+}
+
+.contactame li i:hover {
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #7FC1A9;
+    padding: 8px;
+    margin: 2px;
+    color: #FFFFFF;
+    border: 1px solid #7FC1A9;
 }
 
 .escribime{
     padding: 40px;
     /* width:430px; */
-    width: 50%;
+    width: 100%;
 }
 
 .nombre_y_apellido{
