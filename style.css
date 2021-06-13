@@ -286,6 +286,11 @@ header {
   padding-left: 0;
   padding-right: 5px;
 }
+
+.redes > ul li a,.redes_footer > ul li a {
+    text-decoration: none;
+}
+
 .contactame li {
   list-style: none;
   display: flex;
