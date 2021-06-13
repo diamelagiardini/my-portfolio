@@ -56,6 +56,7 @@ header{
     background-color: #7FC1A9;
     color: #FFFFFF;
     border: 1px solid #7FC1A9;
+    transition: 1s;
 }
 
 .boton:hover{
@@ -132,6 +133,7 @@ header{
  #conocimientos > p,#proyectos > p{
     display: flex;
     justify-content: center;
+    padding: 0 10px;
 }
 
 
@@ -294,9 +296,13 @@ header{
 
 .redes > ul {
     padding-left: 0;
+    padding-right: 5px;
 }
 .contactame li{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .contactame li i {
@@ -307,6 +313,7 @@ header{
     margin: 2px;
     color: #7FC1A9;
     border: 1px solid #FFFFFF;
+    transition: 1s;
 }
 
 .contactame li i:hover {
@@ -427,6 +434,7 @@ footer{
     margin: 2px;
     color: #CBAACB;
     border: 1px solid #FFFFFF;
+    transition: 1s;
 }
 
 .redes_footer > ul li i:hover{
@@ -445,4 +453,104 @@ footer > p{
     font-size: 16px;
 }
 
+@media (max-width: 380px){
+    .redes_footer > ul li i{
+        font-size: 16px;
+        padding: 5px;
+    }
 
+    .redes_footer > ul li i:hover{
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 450px){
+
+    .fuente_titulos_principales{
+        font-size: 25px;
+    }
+    #hola{
+        padding-bottom: 30px;
+    }
+
+    .presentacion, #conocimientos,#proyectos{
+        text-align: center;
+    }
+    .imagen{
+        display: none;
+    }
+
+    .lenguajes{
+        width: 150px;
+        height: 160px;
+    }
+    .contactame {
+        padding: 0;
+    }
+
+
+    .escribime {
+        padding: 0;
+    }
+    .nombre_y_apellido > label input {
+        width: 235px;
+    }
+
+    .email_y_mensaje > label input {
+        width: 235px;  
+    }
+
+    textarea {
+        width: 235px;  
+    }
+}
+
+@media (max-width: 550px){
+    header{
+        display: none;
+    }
+
+    .cita{
+      padding: 30px 0;  
+    }
+
+    
+    .nav_footer{
+        display: none;
+
+    }
+
+
+}
+
+@media (max-width: 1000px){
+
+    .contenedor_conocimientos{
+        width: 100%;
+    }
+
+    .lenguajes{
+        width: 190px;
+        height: 200px;
+    }
+
+    .contenedor_proyectos {
+        width: 100%;
+    }
+
+    .tarjeta_proyecto{
+        width: 280px;
+        height: 285px;
+    }
+.contenedor_formulario{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+#formulario{
+    background-color: #FFFFFF;
+}
+
+}
