@@ -126,6 +126,7 @@ header{
 
 #conocimientos{
     background-color: #F6F7FB;
+    padding: 40px 0 50px;
 }
 
  #conocimientos > p,#proyectos > p{
@@ -213,6 +214,9 @@ header{
 
 /*PROYECTOS*/
 
+#proyectos{
+    padding: 40px 0 50px;
+}
 .contenedor_proyectos{
     width: 70%;
     height: auto;
@@ -255,6 +259,7 @@ header{
 
 #formulario{
     background-color: #F6F7FB;
+    padding: 40px 0 50px;
 
 }
 .contenedor_formulario{
@@ -276,13 +281,20 @@ header{
 }
 
 .contactame {
-    padding: 40px 20px 40px ;
+    padding: 40px 30px 40px ;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.redes{
+    margin-bottom: 65px;
+}
+
+.redes > ul {
+    padding-left: 0;
+}
 .contactame li{
     list-style: none;
 }
@@ -309,7 +321,6 @@ header{
 
 .escribime{
     padding: 40px;
-    /* width:430px; */
     width: 100%;
 }
 
@@ -321,7 +332,6 @@ header{
 }
 
 .nombre_y_apellido > label input{
-    /* width: 190px; */
     width: 100%;
     padding: 8px;
     margin-top: 10px;
@@ -342,7 +352,6 @@ header{
 }
 
 .email_y_mensaje > label input{
-    /* width: 385px; */
     width: 100%;
     padding: 8px;
     margin-top: 10px;
@@ -358,7 +367,6 @@ header{
 }
 
 textarea{
-    /* width: 385px; */
     width: 100%;
     border-radius: 20px;
     border: none;
@@ -377,4 +385,9 @@ textarea{
     width: 100px;
     padding: 15px;
     font-size: 16px; 
+}
+
+
+footer{
+    background-color:#CBAACB;
 }
