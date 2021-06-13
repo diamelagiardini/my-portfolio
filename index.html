@@ -14,184 +14,193 @@
     <header>
         <nav>
             <ul class="opciones_nav">
-                <li>HOLA</li>
-                <li>CONOCIMIENTOS</li>
-                <li>PROYECTOS</li>
-                <li class="boton">CONTACTO</li>
+                <a href="#hola"><li>HOLA</li></a>
+                <a href="#conocimientos"><li>CONOCIMIENTOS</li></a>
+                <a href="#proyectos"><li>PROYECTOS</li></a>
+                <a href="#contacto"><li class="boton">CONTACTO</li></a>
             </ul>
         </nav>
     </header>
 
-    <section id="hola">
-        <div class="presentacion">
-            <h3>Hola! Soy</h3>
-            <h1>Diamela Giardini</h1>
-            <p>Desde 2020 estoy incursionando en este mundo maravilloso de la programacion, actualmente estoy
-                capacitandome para ser Front end developer</p>
-            <button class="boton">LO QUE HAGO</button>
-        </div>
-        <div class="imagen">
-            <img src="/imagenes/imagen_presentacion.png" alt="imagen de presentacion">
-        </div>
-    </section>
+    <a name="hola">
+        <section id="hola">
+            <div class="presentacion">
+                <h3>Hola! Soy</h3>
+                <h1>Diamela Giardini</h1>
+                <p>Desde 2020 estoy incursionando en este mundo maravilloso de la programacion, actualmente estoy
+                    capacitandome para ser Front end developer</p>
+                    <button class="boton"><a href="#conocimientos">LO QUE HAGO</a></button>
+            </div>
+            <div class="imagen">
+                <img src="/imagenes/imagen_presentacion.png" alt="imagen de presentacion">
+            </div>
+        </section>
+    </a>
 
-    <section id="conocimientos">
-        <h1 class="fuente_titulos_principales">Mis conocimientos</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br>
-            Beatae eaque neque molestias consequuntur vel ab quas architecto.
-        </p>
-        <div class="contenedor_conocimientos">
-            <div class="lenguajes">
-                <i class="fab fa-html5 tamaño_icono"></i>
-                <p>HTML</p>
+    <a name="conocimientos">
+        <section id="conocimientos">
+            <h1 class="fuente_titulos_principales">Mis conocimientos</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br>
+                Beatae eaque neque molestias consequuntur vel ab quas architecto.
+            </p>
+            <div class="contenedor_conocimientos">
+                <div class="lenguajes">
+                    <i class="fab fa-html5 tamaño_icono"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="lenguajes">
+                    <i class="fab fa-css3-alt tamaño_icono"></i>
+                    <p>CSS 3</p>
+                </div>
+                <div class="lenguajes">
+                    <i class="fab fa-sass"></i>
+                    <p>Sass</p>
+                </div>
+                <div class="lenguajes">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="lenguajes">
+                    <i class="fab fa-react"></i>
+                    <p>React</p>
+                </div>
+                <div class="lenguajes">
+                    <i class="fab fa-git-alt"></i>
+                    <p>GIT</p>
+                </div>
             </div>
-            <div class="lenguajes">
-                <i class="fab fa-css3-alt tamaño_icono"></i>
-                <p>CSS 3</p>
-            </div>
-            <div class="lenguajes">
-                <i class="fab fa-sass"></i>
-                <p>Sass</p>
-            </div>
-            <div class="lenguajes">
-                <i class="fab fa-js"></i>
-                <p>JavaScript</p>
-            </div>
-            <div class="lenguajes">
-                <i class="fab fa-react"></i>
-                <p>React</p>
-            </div>
-            <div class="lenguajes">
-                <i class="fab fa-git-alt"></i>
-                <p>GIT</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </a>
+
 
     <section id="cita">
-        <div class="cita">
-            <i class="fas fa-quote-right"></i>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio odio, expedita ipsum aspernatur alias,
-                doloremque harum perspiciatis in commodi obcaecati, porro quo earum recusandae quam similique. Neque est
-                corporis repellendus.</p>
-            <p>Blkajsf laksjfa</p>
-        </div>
+                <div class="cita">
+                    <i class="fas fa-quote-right"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio odio, expedita ipsum aspernatur alias,
+                        doloremque harum perspiciatis in commodi obcaecati, porro quo earum recusandae quam similique. Neque est
+                        corporis repellendus.</p>
+                    <p>Blkajsf laksjfa</p>
+                </div>
     </section>
 
 
-    <section id="proyectos">
-        <h1 class="fuente_titulos_principales">Mis proyectos</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br>
-            Beatae eaque neque molestias consequuntur vel ab quas architecto.
-        </p>
-        <div class="contenedor_proyectos">
+    <a name="proyectos">
+        <section id="proyectos">
+            <h1 class="fuente_titulos_principales">Mis proyectos</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br>
+                Beatae eaque neque molestias consequuntur vel ab quas architecto.
+            </p>
+            <div class="contenedor_proyectos">
 
-            <div class="tarjeta_proyecto">
-                <div class="imagen_proyecto"><img src="imagenes/proyecto_portafolio.png" alt="portfolio"></div>
-                <p>Portfolio</p>
-            </div>
-
-            <div class="tarjeta_proyecto">
-                <div class="imagen_proyecto">
-                    <img src="imagenes/proyecto_generador.png" alt="generador de memes">
-                </div>
-                <p>Generador de memes</p>
-            </div>
-
-            <div class="tarjeta_proyecto">
-                <div class="imagen_proyecto"><img src="imagenes/proyecto_match.png" alt="match3"></div>
-                <p>Match 3</p>
-            </div>
-
-            <div class="tarjeta_proyecto">
-                <div class="imagen_proyecto"><img src="imagenes/proyecto_controlador.png" alt="controlador de gastos">
-                </div>
-                <p>Controlador de gastos</p>
-            </div>
-
-            <div class="tarjeta_proyecto">
-                <div class="imagen_proyecto"><img src="imagenes/proyecto_administrador.png"
-                        alt="administador de reuniones"></div>
-                <p>Administrador de reuniones</p>
-            </div>
-
-            <div class="tarjeta_proyecto">
-                <div class="imagen_proyecto"><img src="imagenes/proyecto_todo_app.png" alt="todo app"></div>
-                <p>Todo app</p>
-            </div>
-
-            <div class="tarjeta_proyecto">
-                <div class="imagen_proyecto"><img src="imagenes/proyecto_buscador_pelis.png"
-                        alt="buscador de peliculas"></div>
-                <p>Buscador de peliculas</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="formulario">
-        <div class="contenedor_formulario">
-            <div class="contactame">
-                <div>
-                    <h1 class="fuente_titulos_principales">Contactame</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit soluta laboriosam molestias odio
-                        exercitationem culpa, eveniet delectus blanditiis, sint, repellat possimus aliquam porro? Non
-                        hic
-                        labore eos facere error ab!</p>
+                <div class="tarjeta_proyecto">
+                    <div class="imagen_proyecto"><img src="imagenes/proyecto_portafolio.png" alt="portfolio"></div>
+                    <p>Portfolio</p>
                 </div>
 
-                <div class="redes">
-                    <ul>
-                        <li><a href="https://twitter.com/diame_g"><i class="fab fa-twitter">
-                                    </i>diame_g</a></li>
-                        <li><a href="https://github.com/diamelagiardini"><i
-                                    class="fab fa-github-alt"></i>diamelagiardini</a></li>
-                        <li><a href="https://www.linkedin.com/in/diamelagiardini/"><i
-                                    class="fab fa-linkedin-in"></i>diamelagiardini</a><li>
-                        <li><a href="mailto:giardinidiamela@gmail.com"><i
-                                    class="fas fa-envelope"></i>giardinidiamela@gmail.com</a></li>
-                    </ul>
+                <div class="tarjeta_proyecto">
+                    <div class="imagen_proyecto">
+                        <img src="imagenes/proyecto_generador.png" alt="generador de memes">
+                    </div>
+                    <p>Generador de memes</p>
+                </div>
+
+                <div class="tarjeta_proyecto">
+                    <div class="imagen_proyecto"><img src="imagenes/proyecto_match.png" alt="match3"></div>
+                    <p>Match 3</p>
+                </div>
+
+                <div class="tarjeta_proyecto">
+                    <div class="imagen_proyecto"><img src="imagenes/proyecto_controlador.png" alt="controlador de gastos">
+                    </div>
+                    <p>Controlador de gastos</p>
+                </div>
+
+                <div class="tarjeta_proyecto">
+                    <div class="imagen_proyecto"><img src="imagenes/proyecto_administrador.png"
+                            alt="administador de reuniones"></div>
+                    <p>Administrador de reuniones</p>
+                </div>
+
+                <div class="tarjeta_proyecto">
+                    <div class="imagen_proyecto"><img src="imagenes/proyecto_todo_app.png" alt="todo app"></div>
+                    <p>Todo app</p>
+                </div>
+
+                <div class="tarjeta_proyecto">
+                    <div class="imagen_proyecto"><img src="imagenes/proyecto_buscador_pelis.png"
+                            alt="buscador de peliculas"></div>
+                    <p>Buscador de peliculas</p>
                 </div>
             </div>
-            <div class="escribime">
-                <h1 class="fuente_titulos_principales">Escribime</h1>
-                <form>
-                    <div class="nombre_y_apellido">
-                        <label>Nombre*
-                            <input type="text" placeholder="P.e Diamela">
-                        </label>
+        </section>
+    </a>
 
-                        <label>Apellido*
-                            <input type="text" placeholder="P.e Giardini">
-                        </label>
+    <a name="contacto">
+        <section id="formulario">
+            <div class="contenedor_formulario">
+                <div class="contactame">
+                    <div>
+                        <h1 class="fuente_titulos_principales">Contactame</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit soluta laboriosam molestias odio
+                            exercitationem culpa, eveniet delectus blanditiis, sint, repellat possimus aliquam porro? Non
+                            hic
+                            labore eos facere error ab!</p>
                     </div>
 
-                    <div class="email_y_mensaje">
-                        <label>Email*
-                            <input type="email" placeholder="P. e giardinidiamela@gmail.com">
-                        </label>
-
-                        <label>Mensaje*
-                            <textarea name="mensaje" cols="30" rows="10">Hola! Escribime un mensaje 💜
-                        </textarea>
-                        </label>
+                    <div class="redes">
+                        <ul>
+                            <li><a href="https://twitter.com/diame_g"><i class="fab fa-twitter">
+                                        </i>diame_g</a></li>
+                            <li><a href="https://github.com/diamelagiardini"><i
+                                        class="fab fa-github-alt"></i>diamelagiardini</a></li>
+                            <li><a href="https://www.linkedin.com/in/diamelagiardini/"><i
+                                        class="fab fa-linkedin-in"></i>diamelagiardini</a><li>
+                            <li><a href="mailto:giardinidiamela@gmail.com"><i
+                                        class="fas fa-envelope"></i>giardinidiamela@gmail.com</a></li>
+                        </ul>
                     </div>
-                </form>
-                <button id="boton_formulario" class="boton">ENVIAR</button>
+                </div>
+                <div class="escribime">
+                    <h1 class="fuente_titulos_principales">Escribime</h1>
+                    <form>
+                        <div class="nombre_y_apellido">
+                            <label>Nombre*
+                                <input type="text" placeholder="P.e Diamela">
+                            </label>
+
+                            <label>Apellido*
+                                <input type="text" placeholder="P.e Giardini">
+                            </label>
+                        </div>
+
+                        <div class="email_y_mensaje">
+                            <label>Email*
+                                <input type="email" placeholder="P. e giardinidiamela@gmail.com">
+                            </label>
+
+                            <label>Mensaje*
+                                <textarea name="mensaje" cols="30" rows="10">Hola! Escribime un mensaje 💜
+                            </textarea>
+                            </label>
+                        </div>
+                    </form>
+                    <button id="boton_formulario" class="boton">ENVIAR</button>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </a>
 
     <footer>
         <nav class="nav_footer">
             <ul>
-                <li>HOLA</li>
-                <li>CONOCIMIENTOS</li>
-                <li>PROYECTOS</li>
-                <li>CONTACTO</li>
+                <a href="#hola"><li>HOLA</li></a>
+                <a href="#conocimientos"><li>CONOCIMIENTOS</li></a>
+                <a href="#proyectos"><li>PROYECTOS</li></a>
+                <a href="#contacto"><li>CONTACTO</li></a>
             </ul>
         </nav>
         <div class="redes_footer">

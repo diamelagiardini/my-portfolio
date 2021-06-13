@@ -34,7 +34,7 @@ header {
   justify-content: flex-end;
 }
 
-.opciones_nav > li {
+.opciones_nav > a li {
   font-size: 18px;
   font-weight: 300;
   margin: 0 10px;
@@ -43,8 +43,12 @@ header {
   list-style: none;
 }
 
-.opciones_nav > li:hover {
+.opciones_nav > a li:hover {
   color: #7fc1a9;
+}
+
+.opciones_nav > a{
+  text-decoration: none;
 }
 
 .boton {
@@ -104,6 +108,12 @@ header {
   margin-top: 20px;
   font-size: 20px;
 }
+
+.presentacion > button a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .imagen {
   width: 450px;
   height: 400px;
@@ -406,6 +416,9 @@ footer {
   flex-wrap: wrap;
 }
 
+.nav_footer > ul a {
+  text-decoration: none;
+}
 .nav_footer > ul li,
 .redes_footer > ul li {
   list-style: none;
