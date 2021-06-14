@@ -480,6 +480,10 @@ footer > p {
     display: none;
   }
 
+  .presentacion{
+    text-align: center;
+  }
+  
   .lenguajes {
     width: 150px;
     height: 160px;
