@@ -17,6 +17,7 @@
   width: 100%;
 }
 
+
 /*HEADER*/
 
 header {
@@ -111,7 +112,11 @@ header {
 
 .presentacion > button a{
   text-decoration: none;
-  color: #FFFFFF;
+  color: #FFFFFF;  
+}
+
+.presentacion > button a:hover{
+  color: #7fc1a9;  
 }
 
 .imagen {
@@ -138,6 +143,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 0 10px;
+  text-align: center;
 }
 
 .contenedor_conocimientos {
@@ -475,12 +481,6 @@ footer > p {
 
   #hola {
     padding-bottom: 30px;
-  }
-
-  .presentacion,
-  #conocimientos,
-  #proyectos {
-    text-align: center;
   }
 
   .imagen {
