@@ -104,19 +104,11 @@ header {
   padding-top: 15px;
 }
 
-.presentacion > button {
+.presentacion > a button {
   margin-top: 20px;
   font-size: 20px;
 }
 
-.presentacion > button a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.presentacion > button a:hover {
-  color: #7fc1a9;
-}
 
 .imagen {
   width: 450px;
