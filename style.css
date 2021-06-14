@@ -17,7 +17,6 @@
   width: 100%;
 }
 
-
 /*HEADER*/
 
 header {
@@ -48,7 +47,7 @@ header {
   color: #7fc1a9;
 }
 
-.opciones_nav > a{
+.opciones_nav > a {
   text-decoration: none;
 }
 
@@ -110,13 +109,13 @@ header {
   font-size: 20px;
 }
 
-.presentacion > button a{
+.presentacion > button a {
   text-decoration: none;
-  color: #FFFFFF;  
+  color: #ffffff;
 }
 
-.presentacion > button a:hover{
-  color: #7fc1a9;  
+.presentacion > button a:hover {
+  color: #7fc1a9;
 }
 
 .imagen {
@@ -303,8 +302,9 @@ header {
   padding-right: 5px;
 }
 
-.redes > ul li a,.redes_footer > ul li a {
-    text-decoration: none;
+.redes > ul li a,
+.redes_footer > ul li a {
+  text-decoration: none;
 }
 
 .contactame li {
