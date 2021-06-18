@@ -9,12 +9,31 @@
   color: #242422;
 }
 
+.seccion{
+  padding: 110px 40px 130px;
+  display:flex;
+  justify-content:center;
+}
+
+.fondo-blanco{
+  background-color: #FFFFFF;
+}
+
 .titulos-principales {
   font-size: 45px;
   font-weight: 900;
   padding: 30px;
   text-align: center;
   width: 100%;
+}
+
+.parrafos{
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.estilo-hipervinculos{
+  text-decoration: none;
 }
 
 /*HEADER*/
@@ -47,10 +66,6 @@ header {
   color: #7fc1a9;
 }
 
-.lista-nav > a {
-  text-decoration: none;
-}
-
 .estilo-boton {
   padding: 10px;
   border-radius: 25px;
@@ -70,41 +85,33 @@ header {
 }
 
 /*SECTION PRESENTACION*/
-
-#hola {
+.contenedor-presentacion{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  margin-top: 95.5px;
-  background-color: #ffffff;
-  width: 100%;
+  justify-content: center;
 }
 
 .presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
   width: 400px;
-  height: auto;
-  margin: 0 10px;
+  height: 450px;
 }
 
-.presentacion > h3 {
+.presentacion > div h3 {
   font-size: 40px;
   padding-top: 20px;
 }
 
-.presentacion > h1 {
+.presentacion > div h1 {
   font-size: 60px;
   font-family: "Dancing Script", cursive;
   color: #cbaacb;
 }
 
-.presentacion > p {
-  font-size: 16px;
-  padding-top: 15px;
-}
-
-.presentacion > a button {
+.presentacion > div a {
   margin-top: 20px;
   font-size: 20px;
 }
@@ -127,14 +134,14 @@ header {
   background-color: #f6f7fb;
   padding: 40px 0 50px;
 }
-
+/* 
 #conocimientos > p,
 #proyectos > p {
   display: flex;
   justify-content: center;
   padding: 0 10px;
   text-align: center;
-}
+} */
 
 .contenedor-conocimientos {
   width: 55%;
