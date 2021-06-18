@@ -27,6 +27,10 @@
   background-color: #cbaacb;
 }
 
+.fondo-gris-ocuro{
+  background-color: #716573;
+}
+
 .titulos-principales {
   font-size: 45px;
   font-weight: 900;
@@ -117,12 +121,17 @@ header {
 .presentacion > div h3 {
   font-size: 40px;
   padding-top: 20px;
+  color: #ffffff;
 }
 
 .presentacion > div h1 {
   font-size: 60px;
   font-family: "Dancing Script", cursive;
   color: #cbaacb;
+}
+
+.presentacion > div p {
+  color: #ffffff;
 }
 
 .presentacion > div a {
@@ -135,6 +144,9 @@ header {
   height: 400px;
   overflow: hidden;
   margin-left: 10px;
+
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .imagen-principal > img {
@@ -502,9 +514,22 @@ footer > p {
     font-size: 50px;
   }
 
-  .imagen-principal {
-    display: none;
+  .contenedor-presentacion{
+    padding-bottom: 30px;
+
   }
+  .imagen-principal{
+    width: 300px;
+    height: 300px;
+  }
+
+  .imagen-principal > img {
+    width: 300px;
+    height: 300px;
+  }
+  /* .imagen-principal {
+    display: none;
+  } */
 
   .presentacion {
     text-align: center;
