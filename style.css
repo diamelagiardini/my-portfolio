@@ -468,6 +468,11 @@ footer > p {
 /*MEDIA*/
 
 @media (max-width: 380px) {
+
+  .contenedor-tarjetas{
+    width: 100%;
+  }
+  
   .redes-footer > ul li i {
     font-size: 16px;
     padding: 5px;
@@ -506,10 +511,15 @@ footer > p {
     width: 100%;
     padding: 0;
   }
-
   .contenedor-tarjetas,
   .cajas-proyectos {
     width: 100%;
+  }
+
+  .tarjeta-conocimientos{
+    font-size: 80px;
+    width: 100px;
+    height: 110px;
   }
 
   .formulario {
@@ -545,7 +555,21 @@ footer > p {
   }
 }
 
+@media (max-width: 600px) {
+  .contenedor-tarjetas{
+    width: 100%;
+  }
+
+}
+
+
 @media (max-width: 1150px) {
+
+  .tarjeta-conocimientos{
+    width: 150px;
+    height: 160px;
+  }
+  
   .cajas-proyectos {
     justify-content: center;
   }
