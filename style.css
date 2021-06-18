@@ -35,6 +35,10 @@
   width: 100%;
 }
 
+.centrado-p{
+  text-align: center;
+}
+
 .parrafos{
   font-size: 16px;
   padding-top: 15px;
@@ -146,13 +150,15 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
   
   background-color: indigo;
+
 }
 
 
 .contenedor-tarjetas {
-  width: 75%;
+  width: 66%;
 
   margin-top: 30px;
   background-color: #f6f7fb;
@@ -238,6 +244,8 @@ header {
   justify-content: center;
   align-items: center;
   background-color: lightcoral;
+
+  width: 1620px;
 }
 
 .cajas-proyectos {
@@ -250,6 +258,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  justify-content: center;
 
 }
 
@@ -282,9 +291,8 @@ header {
 
 /*SECCION FORMULARIO*/
 
-#formulario {
-  background-color: #f6f7fb;
-  padding: 40px 0 50px;
+.formulario{
+  background-color: hotpink;
 }
 .contenedor-formulario {
   width: 70%;
@@ -297,7 +305,6 @@ header {
 
   display: flex;
   justify-content: center;
-  flex-direction: row;
 }
 
 .contactame {
@@ -507,11 +514,8 @@ footer > p {
   .parrafos{
     font-size: 15px;
     text-align: center;
+    padding: 15px;
   }
-  /* #hola {
-    padding-bottom: 30px;
-  } */
-
   .presentacion > div h1 {
     font-size: 50px;
   }
@@ -525,33 +529,19 @@ footer > p {
     width: 100%;
     padding: 0;
   } 
+
+  .contenedor-tarjetas,
   .cajas-proyectos{
     width: 100%;
   }
-  /* .tarjeta-conocimientos {
-    width: 150px;
-    height: 160px;
-  } */
 
-  /* .contactame {
+  .contactame,.escribime {
     padding: 0;
-  } */
+  }
 
-  /* .escribime {
-    padding: 0;
-  } */
-
-  /* .nombre-apellido > label input {
-    width: 235px;
-  } */
-
-  /* .email-mensaje > label input {
-    width: 235px;
-  } */
-
-  /* textarea {
-    width: 235px;
-  } */
+ .formulario{
+   padding-bottom: 20px;
+ }
 }
 
 @media (max-width: 550px) {
@@ -559,41 +549,37 @@ footer > p {
     display: none;
   }
 
-  /* .contenedor-cita {
-    padding: 30px 0;
-  } */
 
   .nav-footer {
     display: none;
   }
+
+  .nombre-apellido > label input {
+    width: 235px;
+  }
+
+  .email-mensaje > label input {
+    width: 235px;
+  }
+
+  textarea {
+    width: 235px; 
+  }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
 
   .cajas-proyectos {
     justify-content: center;
   }
-  /* .tarjeta-conocimientos {
-    width: 190px;
-    height: 200px;
-  } */
 
-  /* .cajas-proyectos {
-    width: 100%;
-  } */
-
-  /* .tarjeta-proyecto {
-    width: 280px;
-    height: 285px;
-  } */
-
-  /* .contenedor-formulario {
+  .contenedor-formulario {
     display: flex;
     flex-direction: column;
     border: none;
-  } */
+  }
 
-  /* #formulario {
+  .formulario {
     background-color: #ffffff;
-  } */
-} 
+  }
+}
