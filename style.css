@@ -314,7 +314,6 @@ header {
 .contactame li {
   list-style: none;
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -346,7 +345,6 @@ header {
 
 .nombre-apellido {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -420,7 +418,6 @@ footer {
 .nav-footer ul,
 .redes-footer ul {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
