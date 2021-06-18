@@ -9,22 +9,22 @@
   color: #242422;
 }
 
-.seccion{
+.seccion {
   padding: 110px 40px 130px;
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
 }
 
-.fondo-blanco{
-  background-color: #FFFFFF;
+.fondo-blanco {
+  background-color: #ffffff;
 }
 
-.fondo-gris{
+.fondo-gris {
   background-color: #f6f7fb;
 }
 
-.fondo-lila{
-  background-color:#CBAACB ;
+.fondo-lila {
+  background-color: #cbaacb;
 }
 
 .titulos-principales {
@@ -35,16 +35,17 @@
   width: 100%;
 }
 
-.centrado-p{
+.centrado-p {
   text-align: center;
 }
 
-.parrafos{
+.parrafos {
   font-size: 16px;
   padding-top: 15px;
+  max-width: 700px;
 }
 
-.estilo-hipervinculos{
+a{
   text-decoration: none;
 }
 
@@ -55,7 +56,7 @@ header {
   top: 0;
   background-color: #ffffff;
   box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
-  padding: 25px 0;
+  padding: 25px 0 25px;
   width: 100%;
 }
 
@@ -97,7 +98,7 @@ header {
 }
 
 /*SECTION PRESENTACION*/
-.contenedor-presentacion{
+.contenedor-presentacion {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -111,7 +112,6 @@ header {
 
   width: 400px;
   height: 450px;
-  background-color: grey;
 }
 
 .presentacion > div h3 {
@@ -144,18 +144,13 @@ header {
 
 /*SECCION MIS CONOCIMIENTOS*/
 
-
-.contenedor-conocimientos{
+.contenedor-conocimientos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
-  
-  background-color: indigo;
-
 }
-
 
 .contenedor-tarjetas {
   width: 66%;
@@ -204,7 +199,7 @@ header {
 
 /*SECTION CITA*/
 
-.centrado-cita{
+.centrado-cita {
   display: flex;
   justify-content: center;
 }
@@ -219,8 +214,6 @@ header {
   text-align: center;
   padding: 100px 70px;
   width: 850px;
-
-  background-color: #220322;
 }
 
 .fa-quote-right {
@@ -238,12 +231,11 @@ header {
 
 /*SECCION MIS PROYECTOS*/
 
-.contenedor-proyectos{
+.contenedor-proyectos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightcoral;
 
   width: 1620px;
 }
@@ -253,13 +245,11 @@ header {
   height: auto;
   margin: auto;
   margin-top: 30px;
-  background-color: #882424;
 
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-
 }
 
 .tarjeta-proyecto {
@@ -291,9 +281,6 @@ header {
 
 /*SECCION FORMULARIO*/
 
-.formulario{
-  background-color: hotpink;
-}
 .contenedor-formulario {
   width: 70%;
   margin: auto;
@@ -322,11 +309,6 @@ header {
 .redes > ul {
   padding-left: 0;
   padding-right: 5px;
-}
-
-.redes > ul li a,
-.redes-footer > ul li a {
-  text-decoration: none;
 }
 
 .contactame li {
@@ -486,7 +468,6 @@ footer > p {
   font-size: 16px;
 }
 
-
 /*MEDIA*/
 
 @media (max-width: 380px) {
@@ -500,10 +481,9 @@ footer > p {
     padding: 5px;
   }
 }
- 
-@media (max-width: 450px) {
 
-  .seccion{
+@media (max-width: 450px) {
+  .seccion {
     padding: 0;
   }
 
@@ -511,7 +491,7 @@ footer > p {
     font-size: 25px;
   }
 
-  .parrafos{
+  .parrafos {
     font-size: 15px;
     text-align: center;
     padding: 15px;
@@ -524,24 +504,20 @@ footer > p {
     display: none;
   }
 
-  .presentacion{
+  .presentacion {
     text-align: center;
     width: 100%;
     padding: 0;
-  } 
+  }
 
   .contenedor-tarjetas,
-  .cajas-proyectos{
+  .cajas-proyectos {
     width: 100%;
   }
 
-  .contactame,.escribime {
-    padding: 0;
-  }
-
- .formulario{
-   padding-bottom: 20px;
- }
+  .formulario {
+    padding-bottom: 20px;
+  }  
 }
 
 @media (max-width: 550px) {
@@ -549,9 +525,10 @@ footer > p {
     display: none;
   }
 
-
-  .nav-footer {
-    display: none;
+  
+  .contactame,
+  .escribime {
+    padding: 0;
   }
 
   .nombre-apellido > label input {
@@ -563,14 +540,21 @@ footer > p {
   }
 
   textarea {
-    width: 235px; 
+    width: 235px;
+  }
+
+  .nav-footer {
+    display: none;
   }
 }
 
 @media (max-width: 1150px) {
-
   .cajas-proyectos {
     justify-content: center;
+  }
+
+  .formulario {
+    background-color: #ffffff;
   }
 
   .contenedor-formulario {
@@ -578,8 +562,5 @@ footer > p {
     flex-direction: column;
     border: none;
   }
-
-  .formulario {
-    background-color: #ffffff;
-  }
 }
+  
