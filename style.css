@@ -19,6 +19,14 @@
   background-color: #FFFFFF;
 }
 
+.fondo-gris{
+  background-color: #f6f7fb;
+}
+
+.fondo-lila{
+  background-color:#CBAACB ;
+}
+
 .titulos-principales {
   font-size: 45px;
   font-weight: 900;
@@ -95,9 +103,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 
   width: 400px;
   height: 450px;
+  background-color: grey;
 }
 
 .presentacion > div h3 {
@@ -130,23 +140,20 @@ header {
 
 /*SECCION MIS CONOCIMIENTOS*/
 
-#conocimientos {
-  background-color: #f6f7fb;
-  padding: 40px 0 50px;
-}
-/* 
-#conocimientos > p,
-#proyectos > p {
-  display: flex;
-  justify-content: center;
-  padding: 0 10px;
-  text-align: center;
-} */
 
-.contenedor-conocimientos {
-  width: 55%;
-  height: auto;
-  margin: auto;
+.contenedor-conocimientos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: indigo;
+}
+
+
+.contenedor-tarjetas {
+  width: 75%;
+
   margin-top: 30px;
   background-color: #f6f7fb;
 
@@ -167,14 +174,14 @@ header {
   transition: 1s;
 }
 
-.contenedor-conocimientos div {
+.contenedor-tarjetas div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.contenedor-conocimientos div:hover {
+.contenedor-tarjetas div:hover {
   border: 3px solid #cbaacb;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -191,6 +198,11 @@ header {
 
 /*SECTION CITA*/
 
+.centrado-cita{
+  display: flex;
+  justify-content: center;
+}
+
 .contenedor-cita {
   display: flex;
   flex-direction: column;
@@ -199,10 +211,10 @@ header {
   align-content: center;
 
   text-align: center;
-  height: auto;
   padding: 100px 70px;
+  width: 850px;
 
-  background-color: #cbaacb;
+  background-color: #220322;
 }
 
 .fa-quote-right {
@@ -220,21 +232,25 @@ header {
 
 /*SECCION MIS PROYECTOS*/
 
-#proyectos {
-  padding: 40px 0 50px;
+.contenedor-proyectos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
 }
 
-.contenedor-proyectos {
+.cajas-proyectos {
   width: 70%;
   height: auto;
   margin: auto;
   margin-top: 30px;
-  background-color: #ffffff;
+  background-color: #882424;
 
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   align-content: center;
+
 }
 
 .tarjeta-proyecto {
@@ -477,14 +493,27 @@ footer > p {
     padding: 5px;
   }
 }
-
+ 
 @media (max-width: 450px) {
+
+  .seccion{
+    padding: 0;
+  }
+
   .titulos-principales {
     font-size: 25px;
   }
 
-  #hola {
+  .parrafos{
+    font-size: 15px;
+    text-align: center;
+  }
+  /* #hola {
     padding-bottom: 30px;
+  } */
+
+  .presentacion > div h1 {
+    font-size: 50px;
   }
 
   .imagen-principal {
@@ -493,32 +522,36 @@ footer > p {
 
   .presentacion{
     text-align: center;
+    width: 100%;
+    padding: 0;
+  } 
+  .cajas-proyectos{
+    width: 100%;
   }
-  
-  .tarjeta-conocimientos {
+  /* .tarjeta-conocimientos {
     width: 150px;
     height: 160px;
-  }
+  } */
 
-  .contactame {
+  /* .contactame {
     padding: 0;
-  }
+  } */
 
-  .escribime {
+  /* .escribime {
     padding: 0;
-  }
+  } */
 
-  .nombre-apellido > label input {
+  /* .nombre-apellido > label input {
     width: 235px;
-  }
+  } */
 
-  .email-mensaje > label input {
+  /* .email-mensaje > label input {
     width: 235px;
-  }
+  } */
 
-  textarea {
+  /* textarea {
     width: 235px;
-  }
+  } */
 }
 
 @media (max-width: 550px) {
@@ -526,9 +559,9 @@ footer > p {
     display: none;
   }
 
-  .contenedor-cita {
+  /* .contenedor-cita {
     padding: 30px 0;
-  }
+  } */
 
   .nav-footer {
     display: none;
@@ -536,30 +569,31 @@ footer > p {
 }
 
 @media (max-width: 1000px) {
-  .contenedor-conocimientos {
-    width: 100%;
-  }
 
-  .tarjeta-conocimientos {
+  .cajas-proyectos {
+    justify-content: center;
+  }
+  /* .tarjeta-conocimientos {
     width: 190px;
     height: 200px;
-  }
+  } */
 
-  .contenedor-proyectos {
+  /* .cajas-proyectos {
     width: 100%;
-  }
+  } */
 
-  .tarjeta-proyecto {
+  /* .tarjeta-proyecto {
     width: 280px;
     height: 285px;
-  }
-  .contenedor-formulario {
+  } */
+
+  /* .contenedor-formulario {
     display: flex;
     flex-direction: column;
     border: none;
-  }
+  } */
 
-  #formulario {
+  /* #formulario {
     background-color: #ffffff;
-  }
-}
+  } */
+} 
