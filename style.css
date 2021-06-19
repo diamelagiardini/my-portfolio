@@ -28,7 +28,7 @@
 }
 
 .fondo-gris-ocuro{
-  background-color: #716573;
+  background-color: #262626;
 }
 
 .titulos-principales {
@@ -418,7 +418,7 @@ textarea {
 }
 
 footer {
-  background-color: #cbaacb;
+  /* background-color: #cbaacb; */
   height: auto;
   display: flex;
   flex-direction: column;
