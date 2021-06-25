@@ -23,12 +23,9 @@
   background-color: #f6f7fb;
 }
 
-.fondo-lila {
+.fondo-cita{
   background-color: #cbaacb;
-}
-
-.fondo-gris-ocuro{
-  background-color: #262626;
+  background: linear-gradient(0deg, #cbaacb, #cbaacb98);
 }
 
 .titulos-principales {
@@ -58,7 +55,7 @@ a{
 header {
   position: fixed;
   top: 0;
-  background-color: #ffffff;
+  background-color: #cbaacb;
   box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
   padding: 25px 0 25px;
   width: 100%;
@@ -77,35 +74,56 @@ header {
   padding: 10px;
   border-radius: 25px;
   list-style: none;
+  transition: 0.2s;
 }
 
 .lista-nav > a li:hover {
-  color: #7fc1a9;
-}
+  transform: scale(1.1);
+  border: 1px solid #3f3d56;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} 
 
 .estilo-boton {
   padding: 10px;
   border-radius: 25px;
-  background-color: #7fc1a9;
+  background-color: #3f3d56;
   color: #ffffff;
-  border: 1px solid #7fc1a9;
+  border: 1px solid #3f3d56;
   transition: 0.5s ease-in;
 }
 
 .estilo-boton:hover {
   padding: 10px;
   border-radius: 25px;
-  background-color: #ffffff;
-  border: 1px solid #7fc1a9;
-  color: #7fc1a9;
+  background-color: #3f3d56d2;
+  border: 1px solid #3f3d56d2;
+  color: #ffffff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.boton-contacto{
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #3f3d56;
+  color: #ffffff;
+  border: 1px solid #3f3d56;
+  transition: 0.5s ease-in;
+}
+
+.boton-contacto:hover{
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #3f3d56d2;
+  color: #ffffff;
+  border: 1px solid #3f3d56d2;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 /*SECTION PRESENTACION*/
 .contenedor-presentacion {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 75px;
 }
 
 .presentacion {
@@ -121,17 +139,17 @@ header {
 .presentacion > div h3 {
   font-size: 40px;
   padding-top: 20px;
-  color: #ffffff;
+  color:#3f3d56 ;
 }
 
 .presentacion > div h1 {
   font-size: 60px;
   font-family: "Dancing Script", cursive;
-  color: #cbaacb;
+  color:#cbaacb;
 }
 
 .presentacion > div p {
-  color: #ffffff;
+  color:#3f3d56 ;
 }
 
 .presentacion > div a {
@@ -192,6 +210,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.2s;
 }
 
 .contenedor-tarjetas div:hover {
@@ -201,7 +220,7 @@ header {
 
 .tarjeta-conocimientos > .fab {
   font-size: 120px;
-  color: #cbaacb;
+  color: #CBAACB;
 }
 
 .tarjeta-conocimientos > p {
@@ -230,11 +249,11 @@ header {
 
 .fa-quote-right {
   font-size: 60px;
-  color: #ffffb5;
+  color: #3f3d56;
 }
 
 .contenedor-cita > p {
-  color: #ffffff;
+  color: #3f3d56;
   font-size: 18px;
   font-weight: 600;
   padding-top: 10px;
@@ -273,12 +292,12 @@ header {
   margin: 10px;
   padding: 5px;
   background-color: #ffffff;
-  border: 1px solid #aba29f;
+  border: 1px solid #CBAACB;
   border-radius: 20px;
   width: 295px;
   height: 300px;
 
-  transition: 1s;
+  transition: 0.2s;
 }
 
 .imagen-proyecto > img {
@@ -287,7 +306,7 @@ header {
 }
 
 .tarjeta-proyecto:hover {
-  border: 3px solid #ffffb5;
+  border: 3px solid #aba29f;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -335,7 +354,7 @@ header {
   background-color: #ffffff;
   padding: 8px;
   margin: 2px;
-  color: #7fc1a9;
+  color: #3f3d56;
   border: 1px solid #ffffff;
   transition: 1s;
 }
@@ -343,11 +362,11 @@ header {
 .contactame li i:hover {
   font-size: 20px;
   border-radius: 20px;
-  background-color: #7fc1a9;
+  background-color: #CBAACB;
   padding: 8px;
   margin: 2px;
-  color: #ffffff;
-  border: 1px solid #7fc1a9;
+  color:#3f3d56 ;
+  border: 1px solid #CBAACB;
 }
 
 .escribime {
@@ -418,7 +437,7 @@ textarea {
 }
 
 footer {
-  /* background-color: #cbaacb; */
+  background-color: #CBAACB;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -444,11 +463,11 @@ footer {
 .redes-footer > ul li {
   list-style: none;
   margin: 20px;
-  color: #ffffff;
+  color: #3f3d56;
 }
 
 .nav-footer > ul li:hover {
-  color: #ffffb5;
+  color: #3f3d56d2;
 }
 
 .redes-footer > ul li i {
@@ -457,7 +476,7 @@ footer {
   background-color: #ffffff;
   padding: 10px;
   margin: 2px;
-  color: #cbaacb;
+  color: #3f3d56;
   border: 1px solid #ffffff;
   transition: 1s;
 }
@@ -465,15 +484,15 @@ footer {
 .redes-footer > ul li i:hover {
   font-size: 20px;
   border-radius: 20px;
-  background-color: #cbaacb;
+  background-color: #3f3d56;
   padding: 10px;
   margin: 2px;
   color: #ffffff;
-  border: 1px solid #ffffff;
+  border: 1px solid #3f3d56;
 }
 
 footer > p {
-  color: #ffffff;
+  color: #3f3d56;
   font-size: 16px;
 }
 
@@ -557,7 +576,10 @@ footer > p {
     display: none;
   }
 
-  
+  .contenedor-presentacion{
+    margin: 0;
+  }
+
   .contactame,
   .escribime {
     padding: 0;
