@@ -2,13 +2,13 @@
 
 Bienvenido/a a mi primer Wedsite personal realizado para el curso de Ada ITW donde aplico mis primeros conocimientos de HTML5, CSS3 y Maquetado con Flex 🙌
 
-####Diseño responsivo 💻📱
+###Diseño responsivo 💻📱
 Se adapta a Smartphone y Tablet
 
 
-![Desktop-Mobile](imagenes/foto_readme)
+![](imagenes/foto-readme.png)
 
-####Contenido
+###Contenido
 Esta dividido en secciones: 
 - Presentación
 - Mis Conocimientos
