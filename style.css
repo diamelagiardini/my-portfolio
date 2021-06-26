@@ -23,7 +23,7 @@
   background-color: #f6f7fb;
 }
 
-.fondo-cita{
+.fondo-cita {
   background-color: #cbaacb;
   background: linear-gradient(0deg, #cbaacb, #cbaacb98);
 }
@@ -46,7 +46,7 @@
   max-width: 700px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -73,16 +73,16 @@ header {
   font-weight: 300;
   margin: 0 10px;
   padding: 10px;
-  border: 1px solid #CBAACB;
+  border: 1px solid #cbaacb;
   border-radius: 25px;
   list-style: none;
   transition: 0.2s;
 }
 
-.lista-nav > a li:hover {   
+.lista-nav > a li:hover {
   border: 1px solid #3f3d56;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-} 
+}
 
 .estilo-boton {
   padding: 10px;
@@ -102,7 +102,7 @@ header {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.boton-contacto{
+.boton-contacto {
   padding: 10px;
   border-radius: 25px;
   background-color: #3f3d56;
@@ -111,7 +111,7 @@ header {
   transition: 0.5s ease-in;
 }
 
-.boton-contacto:hover{
+.boton-contacto:hover {
   padding: 10px;
   border-radius: 25px;
   background-color: #3f3d56d2;
@@ -121,6 +121,7 @@ header {
 }
 
 /*SECTION PRESENTACION*/
+
 .contenedor-presentacion {
   display: flex;
   flex-wrap: wrap;
@@ -133,7 +134,6 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   flex-wrap: wrap;
-
   width: 400px;
   height: 450px;
 }
@@ -141,17 +141,17 @@ header {
 .presentacion > div h3 {
   font-size: 40px;
   padding-top: 20px;
-  color:#3f3d56 ;
+  color: #3f3d56;
 }
 
 .presentacion > div h1 {
   font-size: 60px;
   font-family: "Dancing Script", cursive;
-  color:#cbaacb;
+  color: #cbaacb;
 }
 
 .presentacion > div p {
-  color:#3f3d56 ;
+  color: #3f3d56;
 }
 
 .presentacion > div a {
@@ -164,7 +164,6 @@ header {
   height: 400px;
   overflow: hidden;
   margin-left: 10px;
-
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -185,10 +184,8 @@ header {
 
 .contenedor-tarjetas {
   width: 66%;
-
   margin-top: 30px;
   background-color: #f6f7fb;
-
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -221,7 +218,7 @@ header {
 
 .tarjeta-conocimientos > .fab {
   font-size: 120px;
-  color: #CBAACB;
+  color: #cbaacb;
 }
 
 .tarjeta-conocimientos > p {
@@ -242,7 +239,6 @@ header {
   justify-content: center;
   align-items: center;
   align-content: center;
-
   text-align: center;
   padding: 100px 70px;
   width: 850px;
@@ -268,14 +264,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   width: 1620px;
 }
 
 .cajas-proyectos {
   width: 70%;
   margin-top: 30px;
-
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -287,17 +281,15 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   margin: 10px;
   padding: 5px;
   background-color: #ffffff;
-  border: 1px solid #CBAACB;
+  border: 1px solid #cbaacb;
   border-radius: 20px;
   width: 295px;
   height: 300px;
   position: relative;
   z-index: 0;
-
   transition: 0.3s;
 }
 
@@ -311,19 +303,19 @@ header {
   width: 230px;
 }
 
-
-
 /*SECCION FORMULARIO*/
+
+.centrado-formulario {
+  display: flex;
+  justify-content: center;
+}
 
 .contenedor-formulario {
   width: 70%;
-  margin: auto;
   margin-top: 30px;
-
   background-color: #ffffff;
   border-radius: 20px;
   border: 1px solid #aba29f;
-
   display: flex;
   justify-content: center;
 }
@@ -365,11 +357,11 @@ header {
 .contactame li i:hover {
   font-size: 20px;
   border-radius: 20px;
-  background-color: #CBAACB;
+  background-color: #cbaacb;
   padding: 8px;
   margin: 2px;
-  color:#3f3d56 ;
-  border: 1px solid #CBAACB;
+  color: #3f3d56;
+  border: 1px solid #cbaacb;
 }
 
 .escribime {
@@ -383,6 +375,12 @@ header {
   flex-wrap: wrap;
 }
 
+.nombre-apellido > label,
+.email-mensaje > label {
+  margin-top: 10px;
+  width: 100%;
+}
+
 .nombre-apellido > label input {
   width: 100%;
   padding: 8px;
@@ -393,39 +391,18 @@ header {
   background-color: #f6f7fb;
 }
 
-.nombre-apellido > label {
-  margin-top: 10px;
-}
-
 .email-mensaje {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
 }
 
-.email-mensaje > label input {
-  width: 100%;
-  padding: 8px;
-  margin-top: 10px;
-  border-radius: 20px;
-  border: none;
-  display: flex;
-  flex-direction: column;
-  background-color: #f6f7fb;
-}
-
-.email-mensaje > label {
-  margin-top: 10px;
-}
-
+.email-mensaje > label input,
 textarea {
   width: 100%;
   border-radius: 20px;
   border: none;
   margin-top: 10px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+  padding: 8px;
   background-color: #f6f7fb;
 }
 
@@ -440,8 +417,7 @@ textarea {
 }
 
 footer {
-  background-color: #CBAACB;
-  height: auto;
+  background-color: #cbaacb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -452,8 +428,6 @@ footer {
 .nav-footer ul,
 .redes-footer ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   padding: 0;
 }
@@ -485,11 +459,7 @@ footer {
 }
 
 .redes-footer > ul li i:hover {
-  font-size: 20px;
-  border-radius: 20px;
   background-color: #3f3d56;
-  padding: 10px;
-  margin: 2px;
   color: #ffffff;
   border: 1px solid #3f3d56;
 }
@@ -502,11 +472,10 @@ footer > p {
 /*MEDIA*/
 
 @media (max-width: 380px) {
-
-  .contenedor-tarjetas{
+  .contenedor-tarjetas {
     width: 100%;
   }
-  
+
   .redes-footer > ul li i {
     font-size: 16px;
     padding: 5px;
@@ -532,15 +501,16 @@ footer > p {
     text-align: center;
     padding: 15px;
   }
+
   .presentacion > div h1 {
     font-size: 50px;
   }
 
-  .contenedor-presentacion{
+  .contenedor-presentacion {
     padding-bottom: 30px;
-
   }
-  .imagen-principal{
+
+  .imagen-principal {
     width: 300px;
     height: 300px;
   }
@@ -549,21 +519,19 @@ footer > p {
     width: 300px;
     height: 300px;
   }
-  /* .imagen-principal {
-    display: none;
-  } */
 
   .presentacion {
     text-align: center;
     width: 100%;
     padding: 0;
   }
+
   .contenedor-tarjetas,
   .cajas-proyectos {
     width: 100%;
   }
 
-  .tarjeta-conocimientos{
+  .tarjeta-conocimientos {
     font-size: 80px;
     width: 100px;
     height: 110px;
@@ -571,7 +539,7 @@ footer > p {
 
   .formulario {
     padding-bottom: 20px;
-  }  
+  }
 }
 
 @media (max-width: 550px) {
@@ -579,7 +547,7 @@ footer > p {
     display: none;
   }
 
-  .contenedor-presentacion{
+  .contenedor-presentacion {
     margin: 0;
   }
 
@@ -588,39 +556,24 @@ footer > p {
     padding: 0;
   }
 
-  .nombre-apellido > label input {
-    width: 235px;
-  }
-
-  .email-mensaje > label input {
-    width: 235px;
-  }
-
-  textarea {
-    width: 235px;
-  }
-
   .nav-footer {
     display: none;
   }
 }
 
 @media (max-width: 600px) {
-  .contenedor-tarjetas{
+  .contenedor-tarjetas {
     width: 100%;
   }
-
 }
 
-
 @media (max-width: 1150px) {
-
-  .tarjeta-conocimientos{
+  .tarjeta-conocimientos {
     width: 150px;
     height: 160px;
     padding: 10px;
   }
-  
+
   .tarjeta-conocimientos > .fab {
     font-size: 100px;
   }
@@ -639,4 +592,3 @@ footer > p {
     border: none;
   }
 }
-  
