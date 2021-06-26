@@ -59,6 +59,7 @@ header {
   box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
   padding: 25px 0 25px;
   width: 100%;
+  z-index: 1;
 }
 
 .lista-nav {
@@ -72,13 +73,13 @@ header {
   font-weight: 300;
   margin: 0 10px;
   padding: 10px;
+  border: 1px solid #CBAACB;
   border-radius: 25px;
   list-style: none;
   transition: 0.2s;
 }
 
-.lista-nav > a li:hover {
-  transform: scale(1.1);
+.lista-nav > a li:hover {   
   border: 1px solid #3f3d56;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 } 
@@ -118,6 +119,7 @@ header {
   border: 1px solid #3f3d56d2;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 /*SECTION PRESENTACION*/
 .contenedor-presentacion {
   display: flex;
@@ -179,7 +181,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
 }
 
 .contenedor-tarjetas {
@@ -273,8 +274,6 @@ header {
 
 .cajas-proyectos {
   width: 70%;
-  height: auto;
-  margin: auto;
   margin-top: 30px;
 
   display: flex;
@@ -296,19 +295,23 @@ header {
   border-radius: 20px;
   width: 295px;
   height: 300px;
+  position: relative;
+  z-index: 0;
 
-  transition: 0.2s;
-}
-
-.imagen-proyecto > img {
-  width: 230px;
-  height: auto;
+  transition: 0.3s;
 }
 
 .tarjeta-proyecto:hover {
   border: 3px solid #aba29f;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translateY(-10px);
 }
+
+.imagen-proyecto > img {
+  width: 230px;
+}
+
+
 
 /*SECCION FORMULARIO*/
 
@@ -615,8 +618,13 @@ footer > p {
   .tarjeta-conocimientos{
     width: 150px;
     height: 160px;
+    padding: 10px;
   }
   
+  .tarjeta-conocimientos > .fab {
+    font-size: 100px;
+  }
+
   .cajas-proyectos {
     justify-content: center;
   }
