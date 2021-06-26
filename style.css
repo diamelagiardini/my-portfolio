@@ -93,15 +93,13 @@ header {
   color: #ffffff;
   border: 1px solid #3f3d56;
   border-radius: 25px;
-  transition: 0.5s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .estilo-boton:hover {
-  padding: 10px;
   background-color: #3f3d56d2;
   color: #ffffff;
   border: 1px solid #3f3d56d2;
-  border-radius: 25px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -111,15 +109,13 @@ header {
   color: #ffffff;
   border: 1px solid #3f3d56;
   border-radius: 25px;
-  transition: 0.5s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .boton-contacto:hover {
-  padding: 10px;
   background-color: #3f3d56d2;
   color: #ffffff;
   border: 1px solid #3f3d56d2;
-  border-radius: 25px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -407,6 +403,7 @@ textarea {
   margin-top: 15px;
   padding: 15px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 footer {
