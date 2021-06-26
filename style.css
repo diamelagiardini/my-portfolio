@@ -563,6 +563,14 @@ footer > p {
     font-size: 100px;
   }
 
+  .fondo-responsive-proyectos {
+    background-color: #f6f7fb;
+  }
+
+  .tarjeta-proyecto {
+    background-color: #ffffff;
+  }
+
   .cajas-proyectos {
     justify-content: center;
   }
