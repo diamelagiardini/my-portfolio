@@ -2,11 +2,10 @@
 
 Bienvenido/a a mi primer Wedsite personal realizado para el curso de Ada ITW donde aplico mis primeros conocimientos de HTML5, CSS3 y Maquetado con Flex 🙌
 
-```
-Link al Proyecto:
+## Link al Proyecto:
 
 [📌 Deploy en Netlify](https://diamelagiardini.netlify.app/)
-```
+
 Cumple con diseño responsivo: Se adapta a Smartphone y Tablet 💻📱
 
 
