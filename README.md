@@ -15,9 +15,9 @@ git push
 [📌 Deploy en Netlify](https://diamelagiardini.netlify.app/)
 
 ## Responsive Design:
-[x] Smartphone 
-[x] Tablet 
-[x] Desktop
+- [x] Smartphone 
+- [x] Tablet 
+- [x] Desktop
 
 
 ![](imagenes/foto-readme.png)
