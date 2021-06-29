@@ -35,13 +35,10 @@ git push
 ## Accesibilidad:
 
 Intento cumplir con la accesibilidad que todos los usuarios necesitan, sin embargo, aun estoy en proceso de aprendizaje sobre el tema asique se iran haciendo modificaciones a medida que vaya adquiriendo los conocimientos. 
-
-Si llegaste hasta aca gracias por tomarte un ratito de tu tiempo para ver mi progreso 💜 
-
 ### Seguime en mis redes:
 
 [Twitter](https://twitter.com/diame_gi)
 [Linkedin](https://www.linkedin.com/in/diamelagiardini/)
 [Mail](mailto:giardinidiamela@gmail.com)
 
-
+Si llegaste hasta aca gracias por tomarte un ratito de tu tiempo para ver mi progreso 💜 
