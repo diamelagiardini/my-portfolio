@@ -1,3 +1,5 @@
+/* Detalle, pero es mejor importar tus tipografias en HTML, ya que
+hace que la carga de la web sea mas rapida */
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;600;700;800;900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
@@ -29,6 +31,7 @@
 
 .titulos-principales {
   text-align: center;
+  /* innecesario, los titulos son elementos en bloque y ocupan el 100% por defecto */
   width: 100%;
   padding: 30px;
   font-size: 45px;
@@ -260,6 +263,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* este width es una locura, la mayoria de las pantallas son menores a esto
+  pero ademas, no sirve de nada, porque al estar seccion (el padre) en flex, va a 
+  ignorar este ancho! */
   width: 1620px;
 }
 
