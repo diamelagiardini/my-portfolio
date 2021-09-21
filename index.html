@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diamela Giardini</title>
     <link rel="stylesheet" href="style.css">
+    <!-- El favicon deberia ir en la carpeta principal, ya que alli lo van a buscar la mayor
+    parte de los servicios de hosting. -->
     <link rel="icon" href="./imagenes/favicon.ico" type="image/ico">
     <script src="https://kit.fontawesome.com/22bd207fea.js" crossorigin="anonymous"></script>
 </head>
@@ -40,6 +42,7 @@
     <section class="seccion">
         <div class="contenedor-presentacion">
             <div class="presentacion">
+                <!-- Estos divs de aquí son innecesarios - los h3 y h1 ya son elementos en bloque -->
                 <div>
                     <h3>Hola! Soy</h3>
                 </div>
@@ -52,12 +55,20 @@
                         capacitandome para ser Front end developer</p>
                 </div>
                 <div>
+                    <!-- Detalle, pero en el aria deberias aclarar que es un link a mis proyectos, no un botón -->
                     <a href="#proyectos" aria-label="boton a mis proyectos" class="estilo-boton estilo-hipervinculos">IR
                         A PROYECTOS</a>
                 </div>
 
             </div>
             <div class="imagen-principal">
+                <!-- esta imagen se ve rota
+                la ruta debe ser o bien
+                ./imagenes/imagen_presentacion.jpeg
+                o bien
+                imagenes/imagen_presentacion.jpeg -->
+                <!-- no es necesario aclarar "aqui hay una imagen de", ya que el lector anuncia
+                que va a leer la descripcion de una imagen -->
                 <img src="/imagenes/imagen_presentacion.jpeg"
                     alt="aqui hay una imagen de un escritorio que por encima tiene una computadora, una lampara, una maceta y una taza de bebida caliente, en la pared hay un reloj y un cuadro colgado.">
             </div>
@@ -84,6 +95,8 @@
 
             <div class="contenedor-tarjetas">
                 <div class="tarjeta-conocimientos">
+                    <!-- no es necesario el aria-hiden ya que los iconos estan ocultos por defecto para el lector
+                    si algo tiene un aria-hidden, agregarle un aria label no tiene sentido -->
                     <i aria-hidden="true" aria-label="logo" class="fab fa-html5"></i>
                     <p>HTML 5</p>
                 </div>
@@ -117,6 +130,8 @@
         <div class="contenedor-cita">
             <i class="fas fa-quote-right" role="img" aria-hidden="true" aria-label="cita" title="Esto es una cita"></i>
             <p>La creatividad es una mente salvaje con un ojo disciplinado.</p>
+            <!-- no es necesario agregar este span aqui, a menos que lo uses para estilar
+            en ese caso, mejor un nombre de clase -->
             <p> <span>by Dorothy Parker</span></p>
         </div>
     </section>
@@ -132,6 +147,7 @@
             </p>
             <div class="cajas-proyectos">
                 <a href="">
+                    <!-- no es necesario aclarar en los aria "aqui hay" -->
                     <div class="tarjeta-proyecto">
                         <div class="imagen-proyecto"><img src="imagenes/proyecto_portafolio.png"
                                 alt="aqui hay una mujer mostrando una presentacion en un movil"></div>
