@@ -276,6 +276,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 295px;
   height: 300px;
   margin: 10px;
